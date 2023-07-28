@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+:root {
+    --primary-color: #c5c5ff;
+    --text-color: #808080;
+    --heading-color: #1d1d1d;
+}
+
+.scanner{
+    width: 20%;
+    background-color: #fff;
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px #80808092;
+    padding: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.scanner img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.scanner h1{
+    color: var(--heading-color);
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.scanner p{
+    color: var(--text-color);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    
+.scanner{
+    width: 40%;
+    background-color: #fff;
+    margin-top: 30%;
+    margin-left: 30%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px #80808092;
+    padding: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.scanner img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.scanner h1{
+    color: var(--heading-color);
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.scanner p{
+    color: var(--text-color);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .scanner{
+        width: 50%;
+        background-color: #fff;
+        margin-top: 30%;
+        margin-left: 25%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 2px #80808092;
+        padding: 1rem;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .scanner img{
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+    
+    .scanner h1{
+        color: var(--heading-color);
+        font-size: 20px;
+        margin-top: 1rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+    }
+    .scanner p{
+        color: var(--text-color);
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    }
